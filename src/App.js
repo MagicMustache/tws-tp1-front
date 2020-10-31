@@ -17,9 +17,6 @@ function App() {
                 if(res.data.length>0){
                     setTracks(res.data)
                 }
-                else{
-                    getTracks()
-                }
             })
         }
 
